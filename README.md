@@ -7,7 +7,7 @@
 **Design doc:** [docs/DESIGN.md](./docs/DESIGN.md) — architecture, patterns, and why.
 
 
-**Parent system design:** [09 — Multi-Model Routing / API Platform](../09-multi-model-routing-api-platform.md)
+**Parent system design:** [09 — Multi-Model Routing / API Platform](./09-multi-model-routing-api-platform.md)
 
 ## Users & problem
 
@@ -30,7 +30,7 @@ Request → complexity/confidence classifier
   → log route decision + cost
 ```
 
-Reuse router hooks from **09**; separate fleets from [01](../01-llm-inference-serving.md).
+Reuse router hooks from **09**; separate fleets from [01](./01-llm-inference-serving.md).
 
 ## Specializations
 
@@ -44,7 +44,7 @@ Reuse router hooks from **09**; separate fleets from [01](../01-llm-inference-se
 ## Failure modes
 
 - Oscillation → sticky per session; hysteresis.
-- Classifier bias → monitor slice quality regressions ([05](../05-model-monitoring-observability.md)).
+- Classifier bias → monitor slice quality regressions ([05](./05-model-monitoring-observability.md)).
 - Hidden model → always return chosen revision.
 
 
