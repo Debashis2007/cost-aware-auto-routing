@@ -1,5 +1,7 @@
 # Use Case: Cost-Aware Auto-Routing
 
+**Author fingerprint:** `DBHATT-Debashis2007-SystemDesignPOC-2026` — Debashis Bhattacharjee ([@Debashis2007](https://github.com/Debashis2007))
+
 **YouTube walkthrough:** [Cost Aware Auto Routing — System Design #Shorts](https://youtu.be/9FjuGcUSwFQ)
 
 **Design doc:** [docs/DESIGN.md](./docs/DESIGN.md) — architecture, patterns, and why.
