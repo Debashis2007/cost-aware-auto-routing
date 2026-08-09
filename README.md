@@ -1,5 +1,7 @@
 # Use Case: Cost-Aware Auto-Routing
 
+**YouTube walkthrough:** [Cost Aware Auto Routing — System Design #Shorts](https://youtu.be/9FjuGcUSwFQ)
+
 **Design doc:** [docs/DESIGN.md](./docs/DESIGN.md) — architecture, patterns, and why.
 
 
@@ -47,6 +49,9 @@ Reuse router hooks from **09**; separate fleets from [01](../01-llm-inference-se
 
 
 ## Design walkthrough (opens on GitHub)
+
+> **Watch on YouTube:** [Cost Aware Auto Routing — System Design #Shorts](https://youtu.be/9FjuGcUSwFQ)
+
 
 ![Design overview](docs/video/design-overview.gif)
 
